@@ -1,0 +1,19 @@
+Windows Server 2016 Activation (From Evaluation to Server Standard)
+activate_w10pro.ps1
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms kms8.msguides.com
+slmgr /ato
+activate_ws2016_eval_to_standard.ps1
+# convert evaluation to ServerStandard
+DISM /online /Set-Edition:ServerStandard /ProductKey:WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY /AcceptEula
+
+slmgr /ipk WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
+slmgr /skms kms8.msguides.com
+slmgr /ato
+activate_ws2019_eval_to_standart.ps1
+# convert evaluation to ServerStandard
+DISM /online /Set-Edition:ServerStandard /ProductKey:N69G4-B89J2-4G8F4-WWYCC-J464C /AcceptEula
+
+slmgr /ipk N69G4-B89J2-4G8F4-WWYCC-J464C
+slmgr /skms kms8.msguides.com
+slmgr /ato
