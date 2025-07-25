@@ -3,6 +3,8 @@ activate_w10pro.ps1
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms8.msguides.com
 slmgr /ato
+
+
 activate_ws2016_eval_to_standard.ps1
 # convert evaluation to ServerStandard
 DISM /online /Set-Edition:ServerStandard /ProductKey:WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY /AcceptEula
@@ -10,6 +12,8 @@ DISM /online /Set-Edition:ServerStandard /ProductKey:WC2BQ-8NRM3-FDDYY-2BFGV-KHK
 slmgr /ipk WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
 slmgr /skms kms8.msguides.com
 slmgr /ato
+
+
 activate_ws2019_eval_to_standart.ps1
 # convert evaluation to ServerStandard
 DISM /online /Set-Edition:ServerStandard /ProductKey:N69G4-B89J2-4G8F4-WWYCC-J464C /AcceptEula
